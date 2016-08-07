@@ -97,9 +97,9 @@
 				</div>
 				<div class="HeaderRight">
 					<?php if($config[ConfigNames::UseHighResolution]) { ?>			
-						<a href="http://www.raspberrypints.com"><img src="img/RaspberryPints-4k.png" height="200" alt=""></a>
+						<img src="<?php echo $config[ConfigNames::LogoUrl] . "?" . time(); ?>" height="200" alt="">
 					<?php } else { ?>
-						<a href="http://www.raspberrypints.com"><img src="img/RaspberryPints.png" height="100" alt=""></a>
+						<img src="<?php echo $config[ConfigNames::LogoUrl] . "?" . time(); ?>" height="100" alt="">
 					<?php } ?>
 				</div>
 			</div>
