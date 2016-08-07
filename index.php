@@ -124,7 +124,7 @@
 						
 						<?php if($config[ConfigNames::ShowAbvCol]){ ?>
 							<th class="abv">
-								CALORIES<hr>ALCOHOL
+								ALCOHOL
 							</th>
 						<?php } ?>
 						
@@ -196,16 +196,6 @@
 							
 								<?php if(($config[ConfigNames::ShowAbvCol]) && ($config[ConfigNames::ShowAbvImg])){ ?>
 									<td class="abv">
-										<h3><?php
-											$calfromalc = (1881.22 * ($beer['fg'] * ($beer['og'] - $beer['fg'])))/(1.775 - $beer['og']);
-											$calfromcarbs = 3550.0 * $beer['fg'] * ((0.1808 * $beer['og']) + (0.8192 * $beer['fg']) - 1.0004);
-											if ( ($beer['og'] == 1) && ($beer['fg'] == 1 ) ) {
-												$calfromalc = 0;
-												$calfromcarbs = 0;
-												}
-											echo number_format($calfromalc + $calfromcarbs), " kCal";
-											?>
-										</h3>
 										<div class="abv-container">
 											<?php
 												$abv = ($beer['og'] - $beer['fg']) * 131;
@@ -234,16 +224,6 @@
 								
 								<?php if(($config[ConfigNames::ShowAbvCol]) && ! ($config[ConfigNames::ShowAbvImg])){ ?>
 									<td class="abv">
-										<h3><?php
-											$calfromalc = (1881.22 * ($beer['fg'] * ($beer['og'] - $beer['fg'])))/(1.775 - $beer['og']);
-											$calfromcarbs = 3550.0 * $beer['fg'] * ((0.1808 * $beer['og']) + (0.8192 * $beer['fg']) - 1.0004);
-											if ( ($beer['og'] == 1) && ($beer['fg'] == 1 ) ) {
-												$calfromalc = 0;
-												$calfromcarbs = 0;
-												}
-											echo number_format($calfromalc + $calfromcarbs), " kCal";
-											?>
-										</h3>
 										<div class="abv">
 											<?php
 												$abv = ($beer['og'] - $beer['fg']) * 131;
