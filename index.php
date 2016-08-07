@@ -78,11 +78,7 @@
 			<!-- Header with Brewery Logo and Project Name -->
 			<div class="header clearfix">
 				<div class="HeaderLeft">
-					<?php if($config[ConfigNames::UseHighResolution]) { ?>			
-						<a href="admin/admin.php"><img src="<?php echo $config[ConfigNames::LogoUrl] . "?" . time(); ?>" height="200" alt=""></a>
-					<?php } else { ?>
-						<a href="admin/admin.php"><img src="<?php echo $config[ConfigNames::LogoUrl] . "?" . time(); ?>" height="100" alt=""></a>
-					<?php } ?>
+					<a href="admin/admin.php"><img src="<?php echo $config[ConfigNames::LogoUrl] . "?" . time(); ?>" alt=""></a>
 				</div>
 				<div class="HeaderCenter">
 					<h1 id="HeaderTitle">
@@ -96,11 +92,7 @@
 					</h1>
 				</div>
 				<div class="HeaderRight">
-					<?php if($config[ConfigNames::UseHighResolution]) { ?>			
-						<img src="<?php echo $config[ConfigNames::LogoUrl] . "?" . time(); ?>" height="200" alt="">
-					<?php } else { ?>
-						<img src="<?php echo $config[ConfigNames::LogoUrl] . "?" . time(); ?>" height="100" alt="">
-					<?php } ?>
+					<img src="<?php echo $config[ConfigNames::LogoUrl] . "?" . time(); ?>" alt="">
 				</div>
 			</div>
 			<!-- End Header Bar -->

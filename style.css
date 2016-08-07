@@ -65,9 +65,13 @@ img {
 	height: 100px;
 	margin-bottom: 10px;
 }
+.header img {
+	height: 100%;
+	width: auto;
+}
 .HeaderLeft {
 	width: 25%;
-	height: 100px;
+	height: 100%;
 	float: left;
 	font-size: .85em;
 	font-weight: bold;
@@ -84,6 +88,7 @@ img {
 }
 .HeaderRight {
 	width: 25%;
+	height: 100%;
 	float: right;
 	font-size: .85em;
 	font-weight: bold;
