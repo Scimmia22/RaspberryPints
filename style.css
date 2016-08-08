@@ -278,7 +278,7 @@ table .subhead{
 .keg-container{
 	position: relative;
 	height: 100px;
-	width: 67px;
+	width: 65px;
 	margin: 8px auto;
 }
 
@@ -289,6 +289,7 @@ table .subhead{
 	height: 100%;
 	width: 100%;
 	background: url(img/keg/stroke.png) no-repeat bottom left;	
+	background-size: cover;
 }
 .keg-indicator .keg-full{
 	position: absolute;
@@ -296,19 +297,30 @@ table .subhead{
 	left: 0;
 	width: 100%;
 	background: url(img/keg/full.png) no-repeat bottom left;
+	background-size: cover;
 }
 .keg-indicator .keg-empty{
+	width: 100%;
 	background-image: url(img/keg/empty.png);
+	background-size: cover;
 }
 .keg-indicator .keg-red{
+	width: 100%;
 	background-image: url(img/keg/red.png);
+	background-size: cover;
 }
 .keg-indicator .keg-orange{
+	width: 100%;
 	background-image: url(img/keg/orange.png);
+	background-size: cover;
 }
 .keg-indicator .keg-yellow{
+	width: 100%;
 	background-image: url(img/keg/yellow.png);
+	background-size: cover;
 }
 .keg-indicator .keg-green{
+	width: 100%;
 	background-image: url(img/keg/green.png);
+	background-size: cover;
 }

@@ -55,25 +55,3 @@ span.tapcircle {
 	height: 200px;
 	width: 132px;
 }
-
-.keg-indicator{
-	background-image: url(img/keg/stroke-4k.png);	
-}
-.keg-indicator .keg-full{
-	background-image: url(img/keg/full-4k.png);
-}
-.keg-indicator .keg-empty{
-	background-image: url(img/keg/empty-4k.png);
-}
-.keg-indicator .keg-red{
-	background-image: url(img/keg/red-4k.png);
-}
-.keg-indicator .keg-orange{
-	background-image: url(img/keg/orange-4k.png);
-}
-.keg-indicator .keg-yellow{
-	background-image: url(img/keg/yellow-4k.png);
-}
-.keg-indicator .keg-green{
-	background-image: url(img/keg/green-4k.png);
-}
