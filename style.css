@@ -246,7 +246,7 @@ table .subhead{
 .abv-container{
 	position: relative;
 	height: 100px;
-	width: 115px;
+	width: 110px;
 	margin: 8px auto;
 }	
 .abv-indicator{
@@ -255,6 +255,7 @@ table .subhead{
 	height:100%;
 	width:50%;
 	background: url(img/abv/stroke.png) no-repeat bottom left;
+	background-size: cover;
 }
 .abv-indicator .abv-full{
 	position: absolute;
@@ -262,14 +263,16 @@ table .subhead{
 	left: 0;
 	width: 100%;
 	background: url(img/abv/full.png) no-repeat bottom left;
+	background-size: cover;
 }
 .abv-offthechart{
 	position: absolute;
 	bottom: -2px;
 	left: 8px;
-	height: 55px;
-	width: 114px;
+	height: 50%;
+	width: 100%;
 	background: url(img/abv/offthechart.png) no-repeat bottom left;	
+	background-size: contain;
 }
 
 .keg-container{
