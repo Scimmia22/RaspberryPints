@@ -227,6 +227,7 @@ table .subhead{
 	height: 100%;
 	width: 100%;
 	background: url(img/ibu/stroke.png) no-repeat bottom left;
+	background-size: cover;
 }
 .ibu-indicator .ibu-full{
 	position: absolute;
@@ -234,6 +235,7 @@ table .subhead{
 	left: 0;
 	width: 100%;
 	background: url(img/ibu/full.png) no-repeat bottom left;
+	background-size: cover;
 }
 	
 .ibu-max{

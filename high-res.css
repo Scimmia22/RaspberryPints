@@ -45,13 +45,7 @@ span.tapcircle {
 	height:200px;
 	width:107px;
 }
-.ibu-indicator{
-	background-image: url(img/ibu/stroke-4k.png);
-}
-.ibu-indicator .ibu-full{
-	background-image: url(img/ibu/full-4k.png);
-}
-	
+
 .abv-container{
 	height: 200px;
 	width: 230px;
