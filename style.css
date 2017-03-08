@@ -196,10 +196,9 @@ table .subhead{
 	left: 0;
 	z-index: 1;
 	
-	-webkit-mask-image: url(img/srm/pint-mask.png);
-	-o-mask-image: url(img/srm/pint-mask.png);
-	-moz-mask-image: url(img/srm/pint-mask.png);
-	mask-image: url(img/srm/pint-mask.png);
+	-webkit-mask: url(img/srm/pint-mask.png);
+	-webkit-mask-size: cover;
+	mask: url(img/srm/pint-mask.svg#mask);
 }
 
 .srm-stroke{
@@ -210,7 +209,8 @@ table .subhead{
 	left: 0;
 	z-index: 2;
 	
-	background: url(img/srm/pint-stroke.png)
+	background: url(img/srm/pint-stroke.png);
+	background-size: contain;
 }
 
 

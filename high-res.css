@@ -29,18 +29,6 @@ span.tapcircle {
 	width: 110px;
 }
 
-.srm-indicator{
-	-webkit-mask-image: url(img/srm/pint-mask-4k.png);
-	-o-mask-image: url(img/srm/pint-mask-4k.png);
-	-moz-mask-image: url(img/srm/pint-mask-4k.png);
-	mask-image: url(img/srm/pint-mask-4k.png);
-}
-
-.srm-stroke{
-	background: url(img/srm/pint-stroke-4k.png)
-}
-
-
 .ibu-container{
 	height:200px;
 	width:107px;
