@@ -201,7 +201,7 @@
 											<?php
 												$abv = ($beer['og'] - $beer['fg']) * 131;
 												$numCups = 0;
-												$remaining = $abv * 20;
+												$remaining = $abv * 14.28;
 												do{
 														if( $remaining < 100 ){
 																$level = $remaining;
