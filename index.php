@@ -62,6 +62,7 @@
 	<head>
 		<title>RaspberryPints</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="Refresh" content="10">
 
 		<!-- Set location of Cascading Style Sheet -->
 		<link rel="stylesheet" type="text/css" href="style.css">
@@ -114,7 +115,7 @@
 						
 						<?php if($config[ConfigNames::ShowIbuCol]){ ?>
 							<th class="ibu">
-								BALANCE<hr>BITTERNESS
+								BALANCE<hr>BITTER
 							</th>
 						<?php } ?>
 						
@@ -184,7 +185,7 @@
 												*/
 											?>
 										</div>
-										<h2><?php echo $beer['ibu']; ?> IBU</h2>
+										<h2><?php echo $beer['ibu']; ?></h2><h2>IBU</h2>
 									</td>
 								<?php } ?>
 							
